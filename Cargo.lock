@@ -443,6 +443,7 @@ dependencies = [
  "clap",
  "log",
  "log4rs",
+ "thiserror",
 ]
 
 [[package]]

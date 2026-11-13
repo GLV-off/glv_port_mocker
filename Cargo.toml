@@ -3,6 +3,7 @@ resolver = "3"
 members = [
     "crates/port_mocker_app"
 ]
+default-members = ["crates/port_mocker_app"]
 
 [workspace.package]
 version = "0.1.0"
@@ -22,3 +23,4 @@ clap = "4.6.7"
 log = "0.4.35"
 log4rs = "1.4.0"
 anyhow = "1.0.104"
+thiserror = "2.0.21"
