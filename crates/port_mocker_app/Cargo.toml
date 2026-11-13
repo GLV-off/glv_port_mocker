@@ -1,0 +1,10 @@
+[package]
+name = "port_mocker_app"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+log.workspace = true
+log4rs.workspace = true

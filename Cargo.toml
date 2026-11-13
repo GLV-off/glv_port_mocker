@@ -1,0 +1,24 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/port_mocker_app"
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["GLV_off <glv@example.com>"]
+license = "MIT"
+repository = "https://example.com/repo"
+description = "Port mocker"
+readme = "README.md"
+keywords = ["mock", "port"]
+categories = ["development-tools"]
+publish = false
+
+[workspace.dependencies]
+clap = "4.6.7"
+log = "0.4.35"
+log4rs = "1.4.0"
+anyhow = "1.0.104"
